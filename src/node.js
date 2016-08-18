@@ -28,7 +28,8 @@ class Node {
 	}
 
 	remove() {
-		if (this.right!=null) {
+		this.data=null;
+		if (this.right!=null) {			
 			this.data.removeChild(this.right);
 		}
 		else if (this.left!=null) {
@@ -37,7 +38,10 @@ class Node {
 	}
 
 	swapWithParent() {
-		
+		var tmp;
+		tmp=this.parent;
+		this.parent=this.data;
+		this.data=tmp;
 	}
 }
 
