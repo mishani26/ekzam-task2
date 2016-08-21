@@ -31,7 +31,7 @@ class MaxHeap {
 	}
 
 	clear() {
-		
+
 	}
 
 	insertNode(node) {
