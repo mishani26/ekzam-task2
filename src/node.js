@@ -43,7 +43,6 @@ class Node {
 		if (this.parent) {
 			this.appendChild(this.parent);
 		}
-
 	}
 }
 
