@@ -19,7 +19,9 @@ class PriorityQueue {
 	}
 
 	isEmpty() {
-		
+		if(this.heap==null){
+			return true;
+		}
 	}
 }
 
