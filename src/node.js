@@ -29,7 +29,7 @@ class Node {
 		else if	(this.right==node && i==0) {
 			return this.right=null, node.parent=null;
 		}
-		else if(this.right!=node && this.left!=node)
+		else 
 			throw "ERROR";	
 	}
 
